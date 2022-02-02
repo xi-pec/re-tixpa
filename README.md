@@ -1,7 +1,7 @@
 ## Overview
-An improved version of TixPa by xi_pec
-Original Concept and Idea by HoppyAymah
-Uses puppeteer-core to automate actions on a browser.
+An improved version of TixPa by xi_pec  
+Original Concept and Idea by HoppyAymah  
+Uses puppeteer-core to automate actions on a browser.  
 
 ## Features
 - Fast Generator
