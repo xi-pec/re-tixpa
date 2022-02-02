@@ -286,11 +286,11 @@ const register = async (page, logger) => {
 }
 
 ;(async () => {
+    const logger = await logs.new('Main')
     try {
         await setTitle(solved)
         await logs.init()
-        const logger = await logs.new('Main')
-
+        
         if (process.platform !== 'win32') return logger.fatal(`OS Platform ${process.platform} is not supported!`)
         logger.info(`Running ${applicationheaders.name} ${applicationheaders.version}.`)
         logger.info(`Made by ${applicationheaders.author}.`)
