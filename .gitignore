@@ -1,0 +1,8 @@
+node_modules
+logs
+dist
+
+browser.txt
+config.json
+package-lock.json
+re-tixpa.exe

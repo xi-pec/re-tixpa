@@ -1,0 +1,34 @@
+{
+  "name": "re-tixpa",
+  "version": "1.0.0",
+  "description": "Recreated and Inproved version of TixPa by xi_pec",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "start": "node .",
+    "compile": "pkg ."
+  },
+  "pkg": {
+    "assets": [
+      "config.json",
+      "browser.txt"
+    ],
+    "targets": [
+      "latest-win-x64"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "console-title": "^1.1.0",
+    "node-fetch": "^2.6.7",
+    "prompt-sync": "^4.2.0",
+    "puppeteer-core": "^13.1.2",
+    "username-gen": "^1.0.1"
+  },
+  "devDependencies": {
+    "pkg": "^4.4.9"
+  }
+}
